@@ -1,6 +1,7 @@
 import java.io.Serializable
 
 public class Life implements Serializable {
+    public Object jenkinsPipeline;
     private String time;
     private String cousine;
     private Boolean sex;
@@ -14,24 +15,24 @@ public class Life implements Serializable {
     }
 
     public void timeToMeet() {
-        echo "we met" + this.time;
+        this.jenkinsPipeline.echo "we met" + this.time;
     }
 
     public void  whatToEat() {
-        echo "we ate" + this.cousine;
+        this.jenkinsPipeline.echo "we ate" + this.cousine;
     }
 
     public void wasItGood() {
         if (this.sex) {
-            echo "That hole was awesome";
+            this.jenkinsPipeline.echo "That hole was awesome";
         }
         else {
-            echo "That stick was too big";
+            this.jenkinsPipeline.echo "That stick was too big";
         }
     }
 
     public void wiseMan() {
-        echo this.amountOfSperm + "was like a galon of milk";
+        this.jenkinsPipeline.echo this.amountOfSperm + "was like a galon of milk";
     }
 
 }
