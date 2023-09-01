@@ -4,10 +4,10 @@ public class Life implements Serializable {
     public Object jenkinsPipeline;
     private String time;
     private String cousine;
-    private Boolean sex;
-    private Float amountOfSperm;
+    private boolean sex;
+    private float amountOfSperm;
 
-    public Life(String time, String cousine, Boolean sex, Float amountOfSperm) {
+    public Life(String time, String cousine, boolean sex, float amountOfSperm) {
         this.time = time;
         this.cousine = cousine;
         this.sex = sex;
